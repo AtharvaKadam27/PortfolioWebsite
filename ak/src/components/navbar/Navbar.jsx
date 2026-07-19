@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import { AiOutlineSend } from "react-icons/ai";
+import { IoMdSend } from "react-icons/io";
 
 const Navbar = () => {
   return (
@@ -19,7 +19,7 @@ const Navbar = () => {
       </div>
       <div className="hireme">
         <button>
-          <AiOutlineSend className="send-icon" />
+          <IoMdSend className="send-icon" />
           <span>HIRE ME</span>
         </button>
       </div>
