@@ -83,10 +83,10 @@ const Landing = () => {
           <span className="land-circle"></span>
         </div>
         <div className="land-image">
-          <img
+          {/* <img
             src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
             alt="photo"
-          />
+          /> */}
         </div>
         <span className="land-fullstack">FULL-STACK DEVELOPER</span>
         <span className="land-star">
