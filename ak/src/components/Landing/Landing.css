@@ -135,6 +135,42 @@
   background-color: #fdd700;
 }
 
+.land-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.land-box-item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #5ef458;
+  font-weight: 500;
+  width: fit-content;
+  padding: 8px 16px;
+  border: 4px solid #1a1a1a;
+  box-shadow: 3px 3px black;
+  padding: 10px 20px;
+}
+
+.land-box-item h3 {
+  font-family: "Syne", sans-serif;
+  font-size: 40px;
+}
+
+.land-box-item p {
+  width: 100%;
+  padding-top: 5px;
+  text-align: left;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  border-top: 3px solid #1a1a1a;
+  display: block;
+}
 /* landing-right */
 
 .landing-right {
@@ -182,7 +218,7 @@
 .land-image {
   border: 4px solid #1a1a1a;
   background-image: url(../../assets/profilephoto.png);
-  height: 700px;
+  height: clamp(300px, 45vw, 650px);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;

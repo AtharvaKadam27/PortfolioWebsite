@@ -75,6 +75,20 @@ const Landing = () => {
             <GrInstagram />
           </a>
         </div>
+        <div className="land-box">
+          <div className="land-box-item">
+            <h3>1+</h3>
+            <p>Learning & Building</p>
+          </div>
+          <div className="land-box-item">
+            <h3>10+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div className="land-box-item">
+            <h3>MERN</h3>
+            <p>TECH STACK</p>
+          </div>
+        </div>
       </div>
       <div className="landing-right">
         <div className="land-nav">
