@@ -4,6 +4,8 @@ import Navbar from "../../components/navbar/Navbar";
 import Landing from "../../components/Landing/Landing";
 import Carousel from "../../components/Carousel/Carousel";
 import Homeskills from "../../components/Homeskills/Homeskills";
+import Homeprojects from "../../components/Homeprojects/Homeprojects";
+import Homeachieve from "../../components/HomeAchievements/Homeachieve";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
         <Landing />
         <Carousel />
         <Homeskills />
+        <Homeprojects />
+        <Homeachieve />
       </div>
     </>
   );

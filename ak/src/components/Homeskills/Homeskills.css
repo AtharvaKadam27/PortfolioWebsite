@@ -16,6 +16,7 @@
   border: 4px solid black;
   width: fit-content;
   padding: 4px 16px;
+  background-color: white;
 }
 
 .homeskills-item-bottom {
@@ -55,6 +56,19 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  position: relative;
+  left: 0;
+  top: 0;
+  transition:
+    box-shadow 0.2s ease-in-out 0.1s,
+    left 0.2s ease-in-out,
+    top 0.2s ease-in-out;
+}
+
+.homeskills-bottom-box:hover {
+  left: -5px;
+  top: -5px;
+  box-shadow: 10px 10px black;
 }
 
 .homeskills-bottom-icon {
