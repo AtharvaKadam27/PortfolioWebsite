@@ -6,6 +6,8 @@ import Carousel from "../../components/Carousel/Carousel";
 import Homeskills from "../../components/Homeskills/Homeskills";
 import Homeprojects from "../../components/Homeprojects/Homeprojects";
 import Homeachieve from "../../components/HomeAchievements/Homeachieve";
+import Homework from "../../components/Homework/Homework";
+import Footer from "../../components/Foooter/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         <Homeskills />
         <Homeprojects />
         <Homeachieve />
+        <Homework />
+        <Footer />
       </div>
     </>
   );
